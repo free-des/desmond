@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<title>just a trial</title>
+	  <link rel="stylesheet" type="text/css" href="des.css">
+	  <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <div class="container">
+	  <div class="nav">
+	 	<button class="a"><a href="#">login</a></button>
+	 	<button class="a"><a href="#">contacts</a></button>
+	 	<button class="a"><a href="#">home</a></button>
+	 	<div class="nav-right">
+	 		<button class="b"><a href="#">sign up</a></button>
+	 	</div>
+	  </div>
+	 </div>
+ </head>
+<body>
+
+
+
+  <div id="h1"  class="container">   
+    <h1> sign in </h1>
+    <h2> welcome back</h2>
+  </div> 
+
+
+<div id="box" class="container">
+     <div class= "row">
+         <form action="#" method="post">
+        	
+        	<label class="label">
+	         username: <input class="name" type="name" name="username" placeholder="username" >
+	     </label>
+	     <label class="label">
+	           password: <input class="name" type="password" name="password" placeholder="password">
+	     </label>
+	          <button class="btn btn-primary">
+	          login
+	         </button>
+         </form>
+     </div>
+ </div>
+     <h3 id="sign">don't have an account?<a href="sign.html"> sign up</h3>
+
+
+</body>
+</html>
